@@ -14,7 +14,6 @@ from flask_login import current_user, login_user,logout_user,login_required
 from app.models import User
 
 
-
 #建立路由，通过路由可以执行其覆盖的方法，可以多个路由指向同一个方法。
 @app.route('/')
 @app.route('/index')
